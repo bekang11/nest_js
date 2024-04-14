@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://this.usersRepository.save(authCredentialsDto);",
+            "request": "launch",
+            "url": "http://this.usersRepository.save(authCredentialsDto);"
+        }
+    ]
+}
