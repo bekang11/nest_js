@@ -19,23 +19,3 @@ import { AuthModule } from './auth/auth.module';
   ],
 })
 export class AppModule {}
-
-// export const appModule = [
-//   {
-//     provide: 'APP_MODULE',
-//     useFactory: async () => {
-//       const appModule = new AppModule({
-//         type: 'mysql',
-//         host: 'localhost',
-//         port: 3306,
-//         username: 'root',
-//         password: 'root',
-//         database: 'test',
-//         synchronize: true,
-//       });
-
-//       return appModule.initialize();
-//     },
-//   },
-// ];
-// export class AppModule {}
